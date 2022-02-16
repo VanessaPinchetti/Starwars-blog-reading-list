@@ -6,6 +6,7 @@ import Planets from "./component/Planets";
 import Vehicles from "./component/Vehicles";
 import Navbar from "./component/navbar";
 import injectContext from "./store/appContext";
+import { Footer } from "./component/footer";
 
 const Layout = () => {
 	return <>
@@ -18,6 +19,7 @@ const Layout = () => {
 			<Route path="/vehicles/:id" element={<Vehicles />}/>
 			<Route path= "*" element={<h1>Not Found</h1>}/>	
 		</Routes>
+		<Footer />
 	</Router>
 	</>
 };

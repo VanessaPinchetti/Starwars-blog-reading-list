@@ -12,12 +12,11 @@ const Cards = () => {
     console.log(store.people.name)
 
     return <div>
-        <h1>PERSONAJES STAR WARS</h1>
-    <img src="https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-Logo-5.png" className="card-img-top" alt="..." /> 
-    <h1>Nombre :{store.people.name}</h1>
-    <h1> Altura: {store.people.height}</h1>
-    <h1>Gender: {store.people.gender}</h1>
-    
+        <h1>CHARACTER OF STAR WARS</h1>
+    <img src="https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-Logo-5.png" className="card-img-top2" alt="..." /> 
+    <h6>Nombre :{store.people.name}</h6>
+    <h6> Altura: {store.people.height}</h6>
+    <h6>Gender: {store.people.gender}</h6>
     </div> 
     
 }

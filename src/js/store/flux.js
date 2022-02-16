@@ -25,7 +25,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				store.lista_favorito.splice(index, 1)
 				setStore({lista_favorito:store.lista_favorito})
 			},
-			getPeople: id => {
+			getPeople: (id) => {
 				fetch("https://www.swapi.tech/api/people/" + id)
 					.then(response => response.json())
 					.then((result) => {
@@ -48,7 +48,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					})
 					.catch(error => console.log("Error", error));
 			},
-			getVehicles: (id) => {
+			getVehicles: () => {
 				fetch("https://www.swapi.tech/api/vehicles")
 					.then(response =>
 						response.json())

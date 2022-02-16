@@ -13,11 +13,11 @@ const Planets = () => {
 
 
    return <div>
-   <h1>PLANETS STAR WARS</h1>
-<img src="https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-Logo-5.png" className="card-img-top" alt="..." /> 
-<h1>Nombre :{store.planet.name}</h1>
-<h1>Tamaño: {store.planet.diameter}</h1>
-<h1>Rotacion: {store.planet.rotation_period}</h1>
+   <h1>PLANETS FROM STAR WARS</h1>
+<img src="https://1000marcas.net/wp-content/uploads/2019/12/Star-Wars-Logo-5.png" className="card-img-top2" alt="..." /> 
+<h5>Nombre :{store.planet.name}</h5>
+<h5>Tamaño: {store.planet.diameter}</h5>
+<h5>Rotacion: {store.planet.rotation_period}</h5>
 
 </div>
 }
