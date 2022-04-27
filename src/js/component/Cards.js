@@ -54,27 +54,3 @@ const Cards = () => {
 export default Cards;
 
 
-{/* <div className="container">
-			<br />
-			<div className="row justify-content-md-center">
-				<div className="col-8">
-					<img
-						src="https://assets.adnradio.cl/2021/11/Star-Wars-Logo-e1637342476601-925x470.jpg"
-						className="img-fluid"
-						alt="..."
-						width="640"
-						height="360"
-						border= "2px solid"
-            			style={{color: "gray"}}
-					/>
-				</div>
-				<div className="col-4 font-weight-bolder">
-					<h1>{store.people.name}</h1>
-					
-						<p>Altura: {store.people.height}</p>
-						<p>Gener: {store.people.gender}</p>
-			
-					
-				</div>
-			</div>
-		</div> */}
