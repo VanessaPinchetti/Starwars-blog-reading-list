@@ -1,21 +1,66 @@
-.color {
+/* .color {
     color: red;
-}
-.card-align {
+} */
+/* .card-align {
     display: flex;
     align-items: center;
-}
-.card {
+} */
+/* .card {
     align-content: flex-start;
     flex-wrap: wrap;
-  }
-.row1 {
-    display: flex;
-    flex-direction: row;
-}
-.card-img-top2 {
+  } */
+
+/* .card-img-top2 {
     width: 400px;
     height: 400px;
     position: center;
     
+} */
+
+
+/* CSS válido  */
+
+body {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1069312669/thumb/1.jpg);
 }
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1{
+    padding-top: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+
+button {
+    margin-left: 30px;
+}
+
+
+.img-fluid{
+    margin-top: 5px;
+    margin-left: 25%;
+}
+
+
+p{
+    color: #f4fd78;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: 40px;
+}
+
+
+/* Navbar */
+#dropdown-btn{
+    margin-right: 40px;
+}
+

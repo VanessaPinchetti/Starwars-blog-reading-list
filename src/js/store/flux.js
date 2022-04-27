@@ -25,6 +25,20 @@ const getState = ({ getStore, getActions, setStore }) => {
 				store.lista_favorito.splice(index, 1)
 				setStore({lista_favorito:store.lista_favorito})
 			},
+
+			// countFav: (index) => {
+			// 	const store = getStore()
+			// 	store.lista_favorito.splice(index, 1)
+			// 	setStore({lista_favorito:store.lista_favorito})
+
+			// },
+
+			countFavorito: () => {
+				const store = getStore();
+				const length = store.favorito.length;
+			 	return length;
+			  },
+			  
 			getPeople: (id) => {
 				fetch("https://www.swapi.tech/api/people/" + id)
 					.then(response => response.json())

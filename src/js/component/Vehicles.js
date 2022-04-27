@@ -12,12 +12,40 @@ const Vehicles = () => {
 
     // console.log(store.vehicle.model)//
 
-    return <div>
-        <h1>STARSHIPS FROM STAR WARS </h1>
-        <img src="https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2021/05/star-wars-logo.jpg?fit=1280%2C720&quality=80&ssl=1" className="card-img-top2" alt="..." />
-        <h6>Tamaño : {store.vehicle.length}</h6>
-        <h6> Capacidad: {store.vehicle.passengers}</h6>
-        <h6> Precio:  $ {store.vehicle.cost_in_credits}  Credits of Republic</h6>
+    return <div className="container">
+        <h1 className="title" style={{fontFamily:"fantasy", color:"yellow"}} >STARSHIPS FROM STAR WARS </h1>
+        <hr className="line" style={{color: "yellow", marginRight:"20%", marginLeft:"20%"}}></hr> 
+    <br />
+    <div className="row justify-content-md-center">
+        <div className="col-8">
+            <img
+                src="https://sm.ign.com/ign_es/screenshot/default/maxresdefault_3ddb.jpg"
+                className="img-fluid"
+                alt="..."
+                width="640"
+                height="360"
+                border= "2px solid"
+                style={{color: "gray", borderRadius:"10px"}}
+            />
+        </div>
+        <div className="col-4 font-weight-bolder">
+            <h2 style={{fontFamily:"fantasy", color:"#f4fd78", marginLeft:"40px"}}>{store.vehicle.name}</h2>
+            
+                <p>Model: {store.vehicle.model}</p>
+                <p>Length: {store.vehicle.length}</p>
+                <p>Passengers: {store.vehicle.passengers}</p>
+                <p>Capacity: {store.vehicle.cargo_capacity}</p>
+                <p>Consumables: {store.vehicle.consumables}</p>
+                <p>Crew: {store.vehicle.crew}</p>
+                <p>Created: {store.vehicle.created}</p>
+                <p>Edited: {store.vehicle.edited}</p>
+               
+    
+            
+        </div>
     </div>
+</div>
+
 }
 export default Vehicles;
+
